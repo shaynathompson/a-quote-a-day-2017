@@ -25,7 +25,7 @@ app.get('/queryProducts', function(req, res){
 });
 
 var port= process.env.PORT || 8080;
-app.listen(PORT,function()
+app.listen(port,function()
 {
 	console.log("Server runnin on port 3000"); /*http://localhost:3000*/
 	
