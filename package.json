@@ -2,7 +2,7 @@
   "name": "a-quote-a-day",
   "version": "1.0.0",
   "description": "",
-  "engines":{
+  "engines": {
 	"node": "6.9.5",
 	"npm": "3.10.10"
   },
