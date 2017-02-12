@@ -23,8 +23,8 @@ app.get('/queryProducts', function(req, res){
 	res.json([{name: 'iphone7'}, {name: 'iPad mini'}]);
 });
 
-//var port= process.env.port || 8080;
-app.listen(3000,function()
+var port= process.env.port || 3000;
+app.listen(port,function()
 {
 	console.log("Server runnin on port 3000"); /*http://localhost:3000*/
 	
